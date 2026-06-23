@@ -1,0 +1,41 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+   box-sizing: border-box;
+}
+nav div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 40px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+nav h2{
+    color: white;
+}
+nav a:hover{
+    color:red;
+}
+nav li:last-child a{
+    background-color: red;
+    padding: 6px 20px;
+    border-radius: 20px;
+}
+nav li:last-child a{
+    background-color: rgb(129, 6, 6);
+}
+nav a.active{
+    color: red;
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
