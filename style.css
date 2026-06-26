@@ -3,7 +3,7 @@
     margin: 0px;
     padding:0px;
    box-sizing: border-box;
-   font-family: "Shadows Into Light", cursive;
+   font-family: "IBM Plex Serif", serif;
 }
 nav div{
     display:flex;
@@ -39,4 +39,21 @@ nav a.active{
     color: red;
     border-bottom: 2px solid red;
     font-weight: bold;
+}
+.hero{
+    height: 90vh;
+    background: url("Images/Banner.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
 }
