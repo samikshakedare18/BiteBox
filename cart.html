@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <script src="https://kit.fontawesome.com/b9b7e3389e.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cart page</title>
+    <title>Menu Page</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
 </head>
 <body>
+    <header>
+       <nav>
+        <div>
+            <!--<h2>Bite<span style="color:red">Box</span></h2>-->
+            <img src="Images/LOGO (2).png" width="180px" >
+            <ul>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="biteDeals">BiteDeals</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                <li><a href="login.html">Login<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Start Cart Section -->
+    <section class="cart">
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="Proj_img/Burger.png">
+                        <div>
+                            <h4>Cheese burger</h4>
+                            <p>Juicy grilled burger</p>
+                        </div>
+
+                    </td>
+                    <td>₹199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>₹199</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+
+
+                <tr>
+                    <td class="item">
+                        <img src="Proj_img/Fried_chicken.png">
+                        <div>
+                            <h4>Fried Chicken</h4>
+                            <p>Juicy Fried Chicken</p>
+                        </div>
+
+                    </td>
+                    <td>₹199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>₹199</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="Proj_img/Pizza.png">
+                        <div>
+                            <h4>Pizza</h4>
+                            <p>Mushroom Cheese Pizza</p>
+                        </div>
+
+                    </td>
+                    <td>₹199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>₹199</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+                <tr class="grand-total">
+                    <td colspan="3">Grand Total</td>
+                    <td>₹199</td>
+                    <td><button>Proceed</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
     
 </body>
 </html>
